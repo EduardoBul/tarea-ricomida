@@ -1,0 +1,86 @@
+body {
+  font-family: "Cabin", bold;
+  font-weight: 400;
+  color: #373a3c;
+}
+
+h1, h3, h4, h5, h6 {
+  font-size: 40pt;
+  font: optional; text-align: left;
+  color: #373A3C;
+  font-style: bold;
+}
+
+.col-md-6 {
+  font-size: 16pt;
+}
+
+.p {
+  font-weight: 20pt;
+}
+
+
+.text-danger {
+  color: #dc3545;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+}
+
+.text-black {
+  color: #000;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-gray {
+  color: #dddddd;
+}
+
+.bg-gray {
+  background-color: #dddddd;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.navbar .nav-link {
+  color: #333;
+}
+
+.navbar .nav-link:hover {
+  color: #666;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    display: none;
+  }
+}
+
+/*.left {
+  font-family: Bold;
+}
